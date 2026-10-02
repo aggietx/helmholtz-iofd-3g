@@ -4,8 +4,10 @@ Matrix-free CPU and multi-GPU implementations accompanying
 **A Massively Parallel Three-Grid Preconditioner for the High-Frequency
 Helmholtz Equation**, by Shubin Fu, Yitong Wang, and Zixiao Zhao.
 
-This source release contains the implementations used for manuscript version 16.
-It contains the scalar Helmholtz solver, not the separate Maxwell project.
+The solver combines interpolated optimized finite differences (IOFD) with a
+three-grid preconditioner for large-scale, three-dimensional Helmholtz problems.
+This repository provides source code, build instructions, and configurations
+for reproducing the numerical experiments in the accompanying paper.
 
 ## Implementations
 
@@ -13,13 +15,13 @@ It contains the scalar Helmholtz solver, not the separate Maxwell project.
 | --- | --- |
 | `src/cpu/homogeneous/solver.cpp` | PETSc homogeneous solver, including full-volume Green-function error |
 | `src/cpu/overthrust/solver.cpp` | PETSc distributed velocity-model solver |
-| `src/gpu/safe_reuse.cu` | Single-precision GPU paper baseline |
+| `src/gpu/safe_reuse.cu` | Single-precision GPU solver |
 | `src/gpu/jacobi_overlap.cu` | GPU Overthrust overlap implementation |
 | `src/gpu/precision_safe_dp.cu` | Double-precision accuracy comparison |
 
-The GPU entry points share support code but are intentionally retained as
-separate paper versions. Replacing all experiments by one entry point would
-not reproduce the published implementation choices.
+The GPU implementations share support code and provide entry points for the
+single-precision benchmarks, Overthrust experiments, and double-precision
+comparison. The reproduction guide specifies the entry point for each experiment.
 
 ## Numerical conventions
 
@@ -54,9 +56,7 @@ two MPI ranks per four-GPU node and two GPUs per rank, not four ranks per node.
 CPU runs use one MPI rank per core, one thread per rank, and NUMA-local memory.
 
 Overthrust velocity data are not distributed here. Obtain them from an
-authorized source; the input format is documented in [DATA.md](docs/DATA.md). No credentials,
-cluster account configuration, compiled executables, or solution arrays are
-included.
+authorized source; the input format is documented in [DATA.md](docs/DATA.md).
 
 See [REPRODUCING.md](docs/REPRODUCING.md) for the launch configurations,
 source locations, process grids, error definitions, and efficiency formulas.

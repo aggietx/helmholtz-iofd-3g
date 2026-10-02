@@ -1,0 +1,869 @@
+{
+  "description": "Numerical provenance for manuscript v16. Timing is hardware-dependent.",
+  "paper_campaigns": {
+    "gpu": {
+      "constant:640:1": {
+        "pc": 23,
+        "setup": 0.041826,
+        "solve": 12.449006,
+        "tau": 0.54126113,
+        "residual": 7.97576767e-05,
+        "error": 0.00257934453534098,
+        "memory": "36.11 GiB"
+      },
+      "constant:1280:8": {
+        "pc": 38,
+        "setup": 0.096997,
+        "solve": 21.429308,
+        "tau": 0.56392916,
+        "residual": 9.23462638e-05,
+        "error": 0.004228181093679303,
+        "memory": "288.68 GiB"
+      },
+      "constant:1280:16": {
+        "pc": 38,
+        "setup": 0.152273,
+        "solve": 12.63308,
+        "tau": 0.33244948,
+        "memory": "293.53 GiB",
+        "residual": 9.59477406e-05
+      },
+      "constant:2560:64": {
+        "pc": 63,
+        "setup": 0.180283,
+        "solve": 43.792651,
+        "tau": 0.69512145,
+        "residual": 9.96571707e-05,
+        "error": 0.005078406177812526,
+        "memory": "2319.79 GiB"
+      },
+      "wedge:640:1": {
+        "pc": 36,
+        "setup": 0.601028,
+        "solve": 22.286657,
+        "tau": 0.61907382,
+        "memory": "37.35 GiB",
+        "residual": 8.99855386e-05
+      },
+      "wedge:1280:8": {
+        "pc": 69,
+        "setup": 1.307927,
+        "solve": 43.511581,
+        "tau": 0.63060262,
+        "memory": "298.75 GiB",
+        "residual": 9.77272311e-05
+      },
+      "wedge:1280:16": {
+        "pc": 69,
+        "setup": 0.772751,
+        "solve": 25.346517,
+        "tau": 0.36734083,
+        "memory": "303.65 GiB",
+        "residual": 9.81716843e-05
+      },
+      "lens:640:1": {
+        "pc": 15,
+        "setup": 0.602542,
+        "solve": 10.800321,
+        "tau": 0.72002138,
+        "memory": "37.35 GiB",
+        "residual": 7.40462859e-05
+      },
+      "lens:1280:8": {
+        "pc": 29,
+        "setup": 1.331498,
+        "solve": 20.885354,
+        "tau": 0.72018463,
+        "memory": "298.85 GiB",
+        "residual": 8.74924574e-05
+      },
+      "barrier:640:1": {
+        "pc": 36,
+        "setup": 0.550838,
+        "solve": 22.271317,
+        "tau": 0.6186477,
+        "memory": "37.35 GiB",
+        "residual": 9.77231104e-05
+      },
+      "barrier:1280:8": {
+        "pc": 61,
+        "setup": 1.24958,
+        "solve": 38.581289,
+        "tau": 0.63248014,
+        "memory": "298.75 GiB",
+        "residual": 9.25714154e-05
+      },
+      "wedge:2560:64": {
+        "pc": 139,
+        "setup": 1.371863,
+        "solve": 99.44125,
+        "tau": 0.71540468,
+        "memory": "2400.30 GiB"
+      },
+      "constant:640:2": {
+        "pc": 23,
+        "setup": 0.030939,
+        "solve": 6.756527,
+        "tau": 0.29376202,
+        "residual": 7.82747489e-05,
+        "error": 0.00258601236167632,
+        "memory": "36.63 GiB"
+      },
+      "lens:640:2": {
+        "pc": 15,
+        "setup": 0.652038,
+        "solve": 5.711098,
+        "tau": 0.38073988,
+        "memory": "37.88 GiB",
+        "residual": 7.39648408e-05
+      },
+      "wedge:640:2": {
+        "pc": 36,
+        "setup": 0.593179,
+        "solve": 11.974947,
+        "tau": 0.33263742,
+        "memory": "37.88 GiB",
+        "residual": 9.03620562e-05
+      },
+      "barrier:640:2": {
+        "pc": 36,
+        "setup": 0.655914,
+        "solve": 11.965303,
+        "tau": 0.33236952,
+        "memory": "37.88 GiB",
+        "residual": 9.71389612e-05
+      },
+      "constant:640:4": {
+        "pc": 23,
+        "setup": 0.031806,
+        "solve": 4.42029,
+        "tau": 0.19218651,
+        "memory": "37.69 GiB",
+        "residual": 8.05205886e-05
+      },
+      "lens:640:4": {
+        "pc": 15,
+        "setup": 0.383542,
+        "solve": 3.523507,
+        "tau": 0.23490047,
+        "memory": "38.95 GiB",
+        "residual": 7.39621805e-05
+      },
+      "wedge:640:4": {
+        "pc": 36,
+        "setup": 0.36995,
+        "solve": 7.506535,
+        "tau": 0.20851487,
+        "memory": "38.94 GiB",
+        "residual": 8.99687991e-05
+      },
+      "barrier:640:4": {
+        "pc": 36,
+        "setup": 0.382108,
+        "solve": 7.511345,
+        "tau": 0.20864847,
+        "memory": "38.94 GiB",
+        "residual": 9.87804305e-05
+      },
+      "lens:1280:16": {
+        "pc": 29,
+        "setup": 0.78946,
+        "solve": 11.721769,
+        "tau": 0.40419894,
+        "memory": "303.82 GiB",
+        "residual": 8.72238919e-05
+      },
+      "barrier:1280:16": {
+        "pc": 61,
+        "setup": 0.765559,
+        "solve": 22.231015,
+        "tau": 0.36444288,
+        "memory": "303.65 GiB",
+        "residual": 9.24042934e-05
+      },
+      "constant:1280:32": {
+        "pc": 38,
+        "setup": 0.144487,
+        "solve": 7.646644,
+        "tau": 0.20122746,
+        "memory": "302.27 GiB",
+        "residual": 9.45233498e-05
+      },
+      "lens:1280:32": {
+        "pc": 29,
+        "setup": 0.529864,
+        "solve": 6.810761,
+        "tau": 0.23485384,
+        "memory": "312.74 GiB",
+        "residual": 8.73993912e-05
+      },
+      "wedge:1280:32": {
+        "pc": 69,
+        "setup": 0.442831,
+        "solve": 14.602014,
+        "tau": 0.2116234,
+        "memory": "312.44 GiB",
+        "residual": 9.82642252e-05
+      },
+      "barrier:1280:32": {
+        "pc": 61,
+        "setup": 0.534496,
+        "solve": 12.891866,
+        "tau": 0.21134206,
+        "memory": "312.44 GiB",
+        "residual": 9.3296054e-05
+      },
+      "lens:2560:64": {
+        "pc": 52,
+        "setup": 1.458632,
+        "solve": 42.890908,
+        "tau": 0.82482515,
+        "residual": 9.26264586e-05,
+        "nodes": [
+          "paraai-n32-h-01-agent-15",
+          "paraai-n32-h-01-agent-68",
+          "paraai-n32-h-01-agent-69",
+          "paraai-n32-h-01-agent-96",
+          "paraai-n32-h-01-agent-98",
+          "paraai-n32-h-01-agent-99",
+          "paraai-n32-h-01-agent-100",
+          "paraai-n32-h-01-agent-150",
+          "paraai-n32-h-01-agent-154",
+          "paraai-n32-h-01-agent-185",
+          "paraai-n32-h-01-agent-186",
+          "paraai-n32-h-01-agent-187",
+          "paraai-n32-h-01-agent-188",
+          "paraai-n32-h-01-agent-198",
+          "paraai-n32-h-01-agent-199",
+          "paraai-n32-h-01-agent-229"
+        ],
+        "memory": "2401.68 GiB"
+      },
+      "barrier:2560:64": {
+        "pc": 107,
+        "setup": 1.371577,
+        "solve": 77.365133,
+        "tau": 0.72303863,
+        "residual": 9.40664189e-05,
+        "nodes": [
+          "paraai-n32-h-01-agent-15",
+          "paraai-n32-h-01-agent-68",
+          "paraai-n32-h-01-agent-69",
+          "paraai-n32-h-01-agent-96",
+          "paraai-n32-h-01-agent-98",
+          "paraai-n32-h-01-agent-99",
+          "paraai-n32-h-01-agent-100",
+          "paraai-n32-h-01-agent-150",
+          "paraai-n32-h-01-agent-154",
+          "paraai-n32-h-01-agent-185",
+          "paraai-n32-h-01-agent-186",
+          "paraai-n32-h-01-agent-187",
+          "paraai-n32-h-01-agent-188",
+          "paraai-n32-h-01-agent-198",
+          "paraai-n32-h-01-agent-199",
+          "paraai-n32-h-01-agent-229"
+        ],
+        "memory": "2400.30 GiB"
+      }
+    },
+    "cpuHomogeneousScaling": {
+      "tables": [
+        "sm:tab:cpu-results",
+        "sm:tab:cpu-strong-scaling"
+      ],
+      "weak_baseline": {
+        "mesh": 1280,
+        "cores": 64
+      },
+      "noncubic_layout_update": {
+        "records": [
+          {
+            "mesh": 1280,
+            "cores": 512,
+            "process_grid": [
+              4,
+              16,
+              8
+            ]
+          },
+          {
+            "mesh": 2560,
+            "cores": 4096,
+            "process_grid": [
+              8,
+              32,
+              16
+            ]
+          }
+        ],
+        "screen_order": [
+          "cube1",
+          "xy1",
+          "xz1",
+          "xz2",
+          "xy2",
+          "cube2"
+        ]
+      },
+      "strong5120_campaign": {
+        "completed_cores": [
+          8192,
+          16384
+        ],
+        "process_grids": {
+          "8192": [
+            16,
+            32,
+            16
+          ],
+          "16384": [
+            16,
+            32,
+            32
+          ]
+        }
+      }
+    },
+    "cpuOver": [
+      {
+        "mesh": [
+          1616,
+          1616,
+          384
+        ],
+        "cores": 64,
+        "setup": 8.740634,
+        "solve": 664.940072,
+        "tau": 15.831906
+      },
+      {
+        "mesh": [
+          3216,
+          3216,
+          752
+        ],
+        "cores": 512,
+        "setup": 8.78165,
+        "solve": 1220.925287,
+        "tau": 15.856173
+      },
+      {
+        "mesh": [
+          6416,
+          6416,
+          1488
+        ],
+        "cores": 4096,
+        "setup": 11.224949,
+        "solve": 2345.6105,
+        "tau": 15.231237
+      }
+    ],
+    "cpuOverStrong": {
+      "64": {
+        "mesh": [
+          1616,
+          1616,
+          384
+        ],
+        "cores": 64,
+        "setup": 8.740634,
+        "solve": 664.940072,
+        "tau": 15.831906
+      },
+      "128": {
+        "mesh": [
+          1616,
+          1616,
+          384
+        ],
+        "cores": 128,
+        "setup": 4.555822,
+        "solve": 352.293988,
+        "tau": 8.387952
+      },
+      "256": {
+        "mesh": [
+          1616,
+          1616,
+          384
+        ],
+        "cores": 256,
+        "setup": 2.404424,
+        "solve": 180.817993,
+        "tau": 4.30519
+      },
+      "512": {
+        "mesh": [
+          1616,
+          1616,
+          384
+        ],
+        "cores": 512,
+        "setup": 1.372519,
+        "solve": 94.662081,
+        "tau": 2.253859
+      },
+      "1024": {
+        "mesh": [
+          1616,
+          1616,
+          384
+        ],
+        "cores": 1024,
+        "setup": 0.886375,
+        "solve": 53.549859,
+        "tau": 1.274997
+      }
+    },
+    "cpuOverStrong3216": {
+      "mesh": [
+        3216,
+        3216,
+        752
+      ],
+      "execution_order": [
+        8192,
+        4096,
+        2048,
+        1024
+      ],
+      "rows": [
+        {
+          "cores": 1024,
+          "nodes": 16,
+          "process_grid": [
+            4,
+            16,
+            16
+          ],
+          "pc": 77,
+          "setup": 4.319186,
+          "solve": 631.843769,
+          "tau": 8.205763,
+          "true_relative_residual": 9.999235771829e-05,
+          "rank_peak_sum_gib": 2177.71
+        },
+        {
+          "cores": 2048,
+          "nodes": 32,
+          "process_grid": [
+            4,
+            32,
+            16
+          ],
+          "pc": 78,
+          "setup": 2.520719,
+          "solve": 329.872038,
+          "tau": 4.229129,
+          "true_relative_residual": 9.163140202872e-05,
+          "rank_peak_sum_gib": 2318.69
+        },
+        {
+          "cores": 4096,
+          "nodes": 64,
+          "process_grid": [
+            4,
+            32,
+            32
+          ],
+          "pc": 78,
+          "setup": 1.489654,
+          "solve": 168.606311,
+          "tau": 2.161619,
+          "true_relative_residual": 9.121848415816e-05,
+          "rank_peak_sum_gib": 2591.308
+        },
+        {
+          "cores": 8192,
+          "nodes": 128,
+          "process_grid": [
+            8,
+            32,
+            32
+          ],
+          "pc": 78,
+          "setup": 1.31302,
+          "solve": 96.129965,
+          "tau": 1.232435,
+          "true_relative_residual": 9.123086783802e-05,
+          "rank_peak_sum_gib": 3186.118
+        }
+      ]
+    },
+    "cpuOverStrong6416": {
+      "mesh": [
+        6416,
+        6416,
+        1488
+      ],
+      "execution_order": [
+        16384,
+        8192
+      ],
+      "rows": [
+        {
+          "cores": 8192,
+          "nodes": 128,
+          "process_grid": [
+            8,
+            32,
+            32
+          ],
+          "pc": 154,
+          "setup": 4.813565,
+          "solve": 1254.172863,
+          "tau": 8.14398,
+          "true_relative_residual": 9.858781413641e-05,
+          "rank_peak_sum_gib": 17415.734
+        },
+        {
+          "cores": 16384,
+          "nodes": 256,
+          "process_grid": [
+            8,
+            64,
+            32
+          ],
+          "pc": 154,
+          "setup": 3.063791,
+          "solve": 645.026751,
+          "tau": 4.188485,
+          "true_relative_residual": 9.96557137114e-05,
+          "rank_peak_sum_gib": 18871.545
+        }
+      ]
+    },
+    "gpuOver": {
+      "1": {
+        "mesh": [
+          816,
+          816,
+          200
+        ],
+        "pc": 18,
+        "setup": 1.146653,
+        "solve": 8.678703,
+        "tau": 0.4821501666666667,
+        "residual": 9.08096293e-05,
+        "nodes": [
+          "paraai-n32-h-01-agent-152"
+        ]
+      },
+      "2": {
+        "mesh": [
+          816,
+          816,
+          200
+        ],
+        "pc": 18,
+        "setup": 1.249178,
+        "solve": 4.57947,
+        "tau": 0.254415,
+        "residual": 9.07676107e-05,
+        "nodes": [
+          "paraai-n32-h-01-agent-152"
+        ]
+      },
+      "4": {
+        "mesh": [
+          816,
+          816,
+          200
+        ],
+        "pc": 18,
+        "setup": 1.002253,
+        "solve": 2.806516,
+        "tau": 0.15591755555555553,
+        "residual": 9.07558618e-05,
+        "nodes": [
+          "paraai-n32-h-01-agent-152"
+        ]
+      },
+      "8": {
+        "mesh": [
+          1616,
+          1616,
+          384
+        ],
+        "pc": 36,
+        "setup": 2.3567964999999997,
+        "solve": 15.013988000000001,
+        "tau": 0.41705522222222224,
+        "samples": [
+          {
+            "setup": 2.413967,
+            "solve": 15.017554,
+            "tau": 0.4171542777777778,
+            "residual": 9.71973563e-05
+          },
+          {
+            "setup": 2.299626,
+            "solve": 15.010422,
+            "tau": 0.4169561666666667,
+            "residual": 9.71320052e-05
+          }
+        ],
+        "nodes": [
+          "paraai-n32-h-01-agent-68",
+          "paraai-n32-h-01-agent-69"
+        ]
+      },
+      "16": {
+        "mesh": [
+          1616,
+          1616,
+          384
+        ],
+        "pc": 36,
+        "setup": 2.8422685000000003,
+        "solve": 7.9979905,
+        "tau": 0.22216640277777777,
+        "samples": [
+          {
+            "setup": 2.770251,
+            "solve": 8.000924,
+            "tau": 0.22224788888888888,
+            "residual": 9.71094695e-05
+          },
+          {
+            "setup": 2.914286,
+            "solve": 7.995057,
+            "tau": 0.22208491666666666,
+            "residual": 9.69818069e-05
+          }
+        ],
+        "nodes": [
+          "paraai-n32-h-01-agent-19",
+          "paraai-n32-h-01-agent-98",
+          "paraai-n32-h-01-agent-99",
+          "paraai-n32-h-01-agent-100"
+        ]
+      },
+      "32": {
+        "mesh": [
+          1616,
+          1616,
+          384
+        ],
+        "pc": 36,
+        "setup": 1.8622325,
+        "solve": 5.1274584999999995,
+        "tau": 0.14242940277777777,
+        "samples": [
+          {
+            "setup": 1.871611,
+            "solve": 5.137741,
+            "tau": 0.14271502777777778,
+            "residual": 9.71867242e-05
+          },
+          {
+            "setup": 1.852854,
+            "solve": 5.117176,
+            "tau": 0.14214377777777776,
+            "residual": 9.72385479e-05
+          }
+        ],
+        "nodes": [
+          "paraai-n32-h-01-agent-37",
+          "paraai-n32-h-01-agent-40",
+          "paraai-n32-h-01-agent-96",
+          "paraai-n32-h-01-agent-150",
+          "paraai-n32-h-01-agent-187",
+          "paraai-n32-h-01-agent-188",
+          "paraai-n32-h-01-agent-198",
+          "paraai-n32-h-01-agent-199"
+        ]
+      },
+      "64": {
+        "pc": 68,
+        "solve": 31.211868,
+        "residual": 9.99075266e-05,
+        "tau": 0.4589980588235294,
+        "setup": 2.567455,
+        "mesh": [
+          3216,
+          3216,
+          752
+        ]
+      }
+    },
+    "cpuAccuracy": {
+      "green": {
+        "10240": {
+          "cores": 32768,
+          "nodes": 512,
+          "pc": 197,
+          "setup_seconds": 14.564356,
+          "solve_seconds": 5233.136393,
+          "seconds_per_pc": 26.564144,
+          "error": 0.012318049117095668,
+          "relative_l2": 0.005387803282073484,
+          "residual": 9.833463991527e-05,
+          "peak_rank_gib": 6.792515,
+          "rank_peak_sum_gib": 221846.270309
+        },
+        "5120": {
+          "cores": 4096,
+          "pc": 105,
+          "error": 0.006718463790385162,
+          "relative_l2": 0.0029834271465099117,
+          "residual": 9.760386456037e-05
+        }
+      }
+    },
+    "gpuAccuracy": {
+      "green": {
+        "640": {
+          "pc": 23,
+          "setup": 0.041826,
+          "solve": 12.449006,
+          "tau": 0.54126113,
+          "residual": 7.97576767e-05,
+          "error": 0.00257934453534098,
+          "memory": "36.11 GiB"
+        },
+        "1280": {
+          "pc": 38,
+          "setup": 0.096997,
+          "solve": 21.429308,
+          "tau": 0.56392916,
+          "residual": 9.23462638e-05,
+          "error": 0.004228181093679303,
+          "memory": "288.68 GiB"
+        },
+        "2560": {
+          "pc": 63,
+          "setup": 0.180283,
+          "solve": 43.792651,
+          "tau": 0.69512145,
+          "residual": 9.96571707e-05,
+          "error": 0.005078406177812526,
+          "memory": "2319.79 GiB"
+        }
+      },
+      "tolerance": {
+        "1e-2": {
+          "pc": 11,
+          "setup": 0.047922,
+          "solve": 6.049429,
+          "tau": 0.54994807,
+          "residual": 0.00777056237,
+          "error": 0.17414481239937327,
+          "memory": "36.10 GiB"
+        },
+        "1e-3": {
+          "pc": 19,
+          "setup": 0.041869,
+          "solve": 10.283017,
+          "tau": 0.5412114,
+          "residual": 0.000820016801,
+          "error": 0.007276639766813409,
+          "memory": "36.10 GiB"
+        },
+        "1e-4": {
+          "pc": 23,
+          "setup": 0.041826,
+          "solve": 12.449006,
+          "tau": 0.54126113,
+          "residual": 7.97576767e-05,
+          "error": 0.00257934453534098,
+          "memory": "36.11 GiB"
+        },
+        "1e-5": {
+          "pc": 31,
+          "setup": 0.041929,
+          "solve": 16.796823,
+          "tau": 0.541833,
+          "residual": 7.04367506e-06,
+          "error": 0.0028088799028011995,
+          "memory": "36.10 GiB"
+        }
+      },
+      "precision": {
+        "single": {
+          "pc": 23,
+          "setup": 0.030939,
+          "solve": 6.756527,
+          "tau": 0.29376202,
+          "residual": 7.82747489e-05,
+          "error": 0.00258601236167632,
+          "memory": "36.63 GiB"
+        },
+        "double": {
+          "pc": 23,
+          "setup": 0.03727,
+          "solve": 12.297146,
+          "tau": 0.53465852,
+          "residual": 7.93022604e-05,
+          "error": 0.002565234265835893,
+          "memory": "72.39 GiB"
+        }
+      }
+    }
+  },
+  "cpu_homo_32768cores": {
+    "mesh": 5120,
+    "nodes": 512,
+    "cores": 32768,
+    "process_grid": [
+      16,
+      64,
+      32
+    ],
+    "pc_calls": 106,
+    "setup_seconds": 3.541649,
+    "solve_seconds": 361.276042,
+    "seconds_per_pc": 3.408265,
+    "true_relative_residual": 9.554190910421e-05,
+    "paper_error": 0.006697452604462506,
+    "relative_l2": 0.0029807935636770116,
+    "rank_peak_sum_gib": 33208.633652,
+    "peak_rank_gib": 1.02018,
+    "full_convergence": true,
+    "strong_efficiency_vs_4096": 0.9573987791442273,
+    "doubling_efficiency_vs_16384": 0.9617561461097522
+  },
+  "cpu_over_32768cores": {
+    "mesh_intervals": [
+      6416,
+      6416,
+      1488
+    ],
+    "nodal_grid": [
+      1489,
+      6417,
+      6417
+    ],
+    "cores": 32768,
+    "nodes": 512,
+    "process_grid": [
+      8,
+      64,
+      64
+    ],
+    "pc_calls": 155,
+    "full_convergence": true,
+    "relative_residual": 9.427542681806e-05,
+    "setup_seconds": 7.303563,
+    "solve_seconds": 335.870852,
+    "seconds_per_pc": 2.166909,
+    "peak_memory_sum_gib": 22166.568,
+    "peak_memory_max_rank_gib": 0.689,
+    "strong_efficiency_vs_4096": 0.8786269404945016,
+    "doubling_efficiency_vs_16384": 0.9664653661044372
+  },
+  "cpu_trillion": {
+    "nodes": 512,
+    "cores": 32768,
+    "pc_calls": 197,
+    "setup_seconds": 14.564356,
+    "solve_seconds": 5233.136393,
+    "seconds_per_pc": 26.564144,
+    "true_relative_residual": 9.833463991527e-05,
+    "paper_error": 0.012318049117095668,
+    "relative_l2": 0.005387803282073484,
+    "rank_peak_sum_gib": 221846.270309,
+    "full_convergence": true
+  }
+}

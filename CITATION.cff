@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying manuscript when using this software."
+title: "A Massively Parallel Three-Grid Preconditioner for the High-Frequency Helmholtz Equation"
+type: software
+authors:
+  - family-names: Fu
+    given-names: Shubin
+  - family-names: Wang
+    given-names: Yitong
+  - family-names: Zhao
+    given-names: Zixiao
+license: MIT
+repository-code: "https://github.com/aggietx/helmholtz-iofd-3g"

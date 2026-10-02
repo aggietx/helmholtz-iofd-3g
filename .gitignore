@@ -1,0 +1,11 @@
+*.o
+*.a
+*.so
+*.bin
+*.mat
+*.log
+__pycache__/
+build/
+results/
+src/cpu/*/solver
+
